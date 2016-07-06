@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		  <title>Matchmaker</title>
+		  <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		 <link href="css/index.css" rel="stylesheet" type="text/css" media="">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+
+		<div class="container">
+		
+			<form class="form-horizontal" method="POST" action="login.jsp">
+					<div class="form-group">
+						<label for="userName" class="col-sm-2 control-label">User Name</label>
+						<div class="col-sm-6">
+							
+						  <input type="text" class="form-control" name="user" id="userName" placeholder="User name"/>
+						  <span class="icon"><i class="fa fa-user"></i></span>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+						<div class="col-sm-6">
+						  <input type="password" name="password" class="form-control" id="inputPassword3" placeholder="Password"/><span class="icon"><i class="fa fa-lock"></i></span>
+						</div>
+					</div>
+				  <div class="form-group">
+					<div class="col-sm-offset-2 col-sm-6">
+					  <div class="checkbox">
+						<label>
+						  <input type="checkbox"> Remember me
+						</label>
+					  </div>
+					</div>
+				  </div>
+				  <div class="form-group">
+				<div class="col-sm-offset-2 col-sm-6">
+				  <button type="submit" class="btn btn btn-primary">Sign in</button>
+				</div>
+			  </div>
+			    <div class="form-group">
+				<div class="col-sm-offset-2 col-sm-6">
+					<b>New user ?</b> <a href="register_01.jsp">Register for free</a>
+				</div>
+			  </div>
+			  
+			</form> 
+			
+		</div>
+
+	</body>
+</html>
